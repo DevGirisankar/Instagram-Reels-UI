@@ -87,7 +87,6 @@ extension ViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         playFirstVisibleVideo()
     }
-    
 }
 
 extension ViewController {

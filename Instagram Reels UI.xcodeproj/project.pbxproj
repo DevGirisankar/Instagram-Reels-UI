@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1868B1752728137C001D051C /* ReadMoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868B1742728137C001D051C /* ReadMoreLabel.swift */; };
 		189FBC03272913F2002A5AB0 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FBC02272913F2002A5AB0 /* UIViewHelper.swift */; };
 		189FBC0C272931A1002A5AB0 /* NSAttributedString+Processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FBC05272931A1002A5AB0 /* NSAttributedString+Processing.swift */; };
 		189FBC0D272931A1002A5AB0 /* TextKitStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FBC06272931A1002A5AB0 /* TextKitStack.swift */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1868B1742728137C001D051C /* ReadMoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreLabel.swift; sourceTree = "<group>"; };
 		189FBC02272913F2002A5AB0 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
 		189FBC05272931A1002A5AB0 /* NSAttributedString+Processing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Processing.swift"; sourceTree = "<group>"; };
 		189FBC06272931A1002A5AB0 /* TextKitStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextKitStack.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				18BA2E3D2726E9D700C78837 /* Gplayer.swift */,
 				18BA2E3F2726E9F300C78837 /* AVPlayer+Extension.swift */,
 				18BA2E412726EA3E00C78837 /* VideoCollectionViewCell.swift */,
-				1868B1742728137C001D051C /* ReadMoreLabel.swift */,
 				189FBC042729318C002A5AB0 /* ResponsiveLabel */,
 				189FBC02272913F2002A5AB0 /* UIViewHelper.swift */,
 				18BA2E2F2726E01C00C78837 /* Main.storyboard */,
@@ -188,7 +185,6 @@
 				189FBC0D272931A1002A5AB0 /* TextKitStack.swift in Sources */,
 				18BA2E2A2726E01C00C78837 /* AppDelegate.swift in Sources */,
 				189FBC12272931A1002A5AB0 /* PatternHighlighter.swift in Sources */,
-				1868B1752728137C001D051C /* ReadMoreLabel.swift in Sources */,
 				18BA2E422726EA3E00C78837 /* VideoCollectionViewCell.swift in Sources */,
 				189FBC0C272931A1002A5AB0 /* NSAttributedString+Processing.swift in Sources */,
 				189FBC0E272931A1002A5AB0 /* SwiftResponsiveLabel+TruncationHandler.swift in Sources */,
