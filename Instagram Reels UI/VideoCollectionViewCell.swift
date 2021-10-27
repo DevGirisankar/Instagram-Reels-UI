@@ -158,18 +158,6 @@ class VideoCollectionViewCell: UICollectionViewCell {
     }
     
 }
-extension UIView {
-
-    func addShadow(offset: CGSize, color: UIColor, opacity: Float) {
-        layer.masksToBounds = false
-        layer.shadowOffset = offset
-        layer.shadowColor = color.cgColor
-        layer.shadowOpacity = opacity
-        let backgroundCGColor = backgroundColor?.cgColor
-        backgroundColor = nil
-        layer.backgroundColor =  backgroundCGColor
-    }
-}
 class GradientView: UIView {
     enum type {
         case expanded, collapsed
