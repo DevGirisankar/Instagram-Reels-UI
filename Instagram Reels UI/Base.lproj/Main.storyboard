@@ -38,7 +38,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="857"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
-                                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quT-i3-l9H">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quT-i3-l9H">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="857"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raH-ND-hY9" customClass="GradientView" customModule="Instagram_Reels_UI" customModuleProvider="target">

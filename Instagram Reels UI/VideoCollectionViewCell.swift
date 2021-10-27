@@ -105,12 +105,14 @@ class VideoCollectionViewCell: UICollectionViewCell {
             responsiveLabel.customTruncationEnabled = true
             responsiveLabel.attributedTruncationToken = self.collapseAttributedToken
             responsiveLabel.attributedText = finalString
+            gradientView.update(with: .expanded)
 
         } else {
             responsiveLabel.customTruncationEnabled = true
             responsiveLabel.attributedTruncationToken = self.expandAttributedToken
             responsiveLabel.numberOfLines = 5
             responsiveLabel.text = descString
+            gradientView.update(with: .collapsed)
         }
     }
     func volumeToggle() {
