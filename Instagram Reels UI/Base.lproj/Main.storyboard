@@ -42,11 +42,11 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="857"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raH-ND-hY9" customClass="GradientView" customModule="Instagram_Reels_UI" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="664.5" width="414" height="192.5"/>
+                                                            <rect key="frame" x="0.0" y="671.5" width="414" height="185.5"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </view>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gJ1-5j-qTo">
-                                                            <rect key="frame" x="20" y="689.5" width="336" height="147.5"/>
+                                                            <rect key="frame" x="20" y="696.5" width="336" height="140.5"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VUF-fg-9JQ">
                                                                     <rect key="frame" x="0.0" y="0.0" width="336" height="60"/>
@@ -90,13 +90,13 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="LWH-UD-Zpp">
-                                                                    <rect key="frame" x="0.0" y="68" width="336" height="57"/>
+                                                                    <rect key="frame" x="0.0" y="68" width="336" height="50"/>
                                                                     <subviews>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGf-Ea-uXK">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="0.0"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="31"/>
                                                                             <subviews>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0D-By-YtK" customClass="SwiftResponsiveLabel" customModule="Instagram_Reels_UI" customModuleProvider="target">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="0.0"/>
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="31"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                     <nil key="highlightedColor"/>
@@ -121,7 +121,7 @@
                                                                     </constraints>
                                                                 </scrollView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Something.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oha-li-FOq">
-                                                                    <rect key="frame" x="0.0" y="133" width="336" height="14.5"/>
+                                                                    <rect key="frame" x="0.0" y="126" width="336" height="14.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -274,6 +274,11 @@
             <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="M0D-By-YtK">
+            <size key="intrinsicContentSize" width="0.0" height="31"/>
+        </designable>
+    </designables>
     <resources>
         <image name="3dot" width="33" height="33"/>
         <image name="like" width="33" height="33"/>
